@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Erde Agro dashboard redesign sketch</title>
+  <desc id="desc">Low-fidelity annotated wireframe showing a left navigation rail, top bar, summary metric cards, crop mix, attention panel, and farmers and fields table.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M 24 0 L 0 0 0 24" fill="none" stroke="#dfe6df" stroke-width="1"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#173b28" flood-opacity=".08"/></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="#f7f8f4"/>
+  <rect x="0" y="0" width="1600" height="1000" fill="url(#grid)" opacity=".45"/>
+  <rect x="0" y="0" width="1600" height="74" fill="#0d321d"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <g fill="#f7fbf3">
+      <circle cx="34" cy="37" r="16" fill="#c9db50"/><path d="M34 24v26M21 37h26M25 28l18 18M43 28L25 46" stroke="#0d321d" stroke-width="2"/>
+      <text x="62" y="34" font-size="18" font-weight="700" letter-spacing="1">ERDE AGRO</text>
+      <text x="62" y="52" font-size="8" opacity=".7" letter-spacing="2">ORGANISING AGRICULTURE</text>
+      <text x="1390" y="44" font-size="15">Erde Agro Ecosystems</text>
+      <circle cx="1360" cy="37" r="17" fill="#3e7341"/>
+      <text x="1354" y="43" font-size="14">E</text>
+    </g>
+    <rect x="0" y="74" width="274" height="926" fill="#f1f4ee" stroke="#dfe6df"/>
+    <g fill="#809086" font-size="12" font-weight="600" letter-spacing="1">
+      <text x="28" y="121">WORKSPACE</text><text x="28" y="223">MANAGE</text>
+    </g>
+    <g font-size="15" fill="#4d5e54"><rect x="18" y="140" width="238" height="44" rx="12" fill="#dfeadb"/><circle cx="42" cy="162" r="7" fill="#2e6b3e"/><text x="63" y="168" fill="#173b28" font-weight="700">Overview</text><rect x="32" y="207" width="14" height="14" rx="3" fill="#a9b8ad"/><text x="63" y="219">Fields</text><rect x="32" y="253" width="14" height="14" rx="3" fill="#a9b8ad"/><text x="63" y="265">Farmers</text><rect x="32" y="299" width="14" height="14" rx="3" fill="#a9b8ad"/><text x="63" y="311">Reports</text></g>
+    <rect x="22" y="808" width="230" height="142" rx="16" fill="#dfeadb"/>
+    <text x="40" y="840" font-size="12" fill="#5e7266" font-weight="700">FIELD HEALTH</text><text x="40" y="878" font-size="28" fill="#173b28" font-weight="800">92%</text><text x="40" y="901" font-size="11" fill="#5e7266">+4.8% from last month</text><path d="M150 902 C165 876, 175 892, 187 866 S210 876, 229 846" fill="none" stroke="#2e6b3e" stroke-width="4" stroke-linecap="round"/>
+    <g transform="translate(320 118)">
+      <text x="0" y="0" font-size="12" fill="#7b8b80" font-weight="700" letter-spacing="1">WEDNESDAY, 23 SEPTEMBER 2026</text><text x="0" y="50" font-size="34" fill="#173b28" font-weight="800">Good morning, team</text><text x="0" y="78" font-size="15" fill="#6a786f">A clear view of the farms and fields that need your attention today.</text>
+      <rect x="1074" y="13" width="122" height="42" rx="11" fill="#173b28"/><text x="1108" y="39" font-size="13" fill="#f7fbf3" font-weight="700">+ Add field</text>
+      <g transform="translate(0 118)" filter="url(#shadow)">
+        <rect width="280" height="114" rx="16" fill="#ffffff"/><rect x="310" width="280" height="114" rx="16" fill="#ffffff"/><rect x="620" width="280" height="114" rx="16" fill="#ffffff"/><rect x="930" width="266" height="114" rx="16" fill="#ffffff"/>
+        <g fill="#7b8b80" font-size="12" font-weight="700"><text x="24" y="30">TOTAL AREA</text><text x="334" y="30">ACTIVE FIELDS</text><text x="644" y="30">OPEN ALERTS</text><text x="954" y="30">FIELD HEALTH</text></g>
+        <g fill="#173b28" font-size="30" font-weight="800"><text x="24" y="72">23.08 <tspan font-size="14" font-weight="500">acres</tspan></text><text x="334" y="72">7</text><text x="644" y="72">1</text><text x="954" y="72">92%</text></g>
+        <g fill="#2e6b3e" font-size="11"><text x="24" y="96">+8.3% this season</text><text x="334" y="96">Across 2 states</text><text x="644" y="96">Needs review today</text><text x="954" y="96">+4.8% this month</text></g>
+      </g>
+      <g transform="translate(0 264)" filter="url(#shadow)">
+        <rect width="698" height="284" rx="18" fill="#ffffff"/><rect x="722" width="474" height="284" rx="18" fill="#173b28"/>
+        <text x="26" y="38" font-size="18" fill="#173b28" font-weight="800">Crop mix</text><text x="26" y="62" font-size="12" fill="#7b8b80">Area by crop across all active fields</text>
+        <circle cx="224" cy="160" r="86" fill="none" stroke="#e9eee8" stroke-width="30"/><path d="M224 74 A86 86 0 1 1 148 201" fill="none" stroke="#a87b00" stroke-width="30"/><path d="M148 201 A86 86 0 0 1 135 126" fill="none" stroke="#6f89d7" stroke-width="30"/><circle cx="224" cy="160" r="50" fill="#fff"/><text x="198" y="157" font-size="24" fill="#173b28" font-weight="800">23.08</text><text x="208" y="177" font-size="11" fill="#7b8b80">ACRES</text>
+        <g font-size="12" fill="#53635a"><circle cx="370" cy="118" r="5" fill="#a87b00"/><text x="385" y="122">Test crop</text><text x="520" y="122" text-anchor="end">55.72%</text><circle cx="370" cy="150" r="5" fill="#6f89d7"/><text x="385" y="154">Apricots</text><text x="520" y="154" text-anchor="end">8.15%</text><circle cx="370" cy="182" r="5" fill="#6ab8a6"/><text x="385" y="186">Almonds</text><text x="520" y="186" text-anchor="end">3.21%</text><circle cx="370" cy="214" r="5" fill="#e7a942"/><text x="385" y="218">Arak tree</text><text x="520" y="218" text-anchor="end">7.84%</text></g>
+        <g fill="#f7fbf3"><text x="752" y="44" font-size="12" opacity=".65" font-weight="700" letter-spacing="1">ATTENTION NEEDED</text><text x="752" y="91" font-size="24" font-weight="800">1 moisture alert</text><text x="752" y="123" font-size="13" opacity=".78">Maharashtra · Field 04</text><rect x="752" y="168" width="414" height="1" fill="#3c6245"/><text x="752" y="205" font-size="13" opacity=".72">Last reading 34 minutes ago</text><text x="752" y="244" font-size="13" font-weight="700" fill="#d8e68a">Review alert →</text></g>
+      </g>
+      <g transform="translate(0 578)" filter="url(#shadow)">
+        <rect width="1196" height="260" rx="18" fill="#ffffff"/><text x="26" y="40" font-size="18" fill="#173b28" font-weight="800">Farmers &amp; fields</text><text x="26" y="64" font-size="12" fill="#7b8b80">Monitor field activity, irrigation, and open alerts.</text><rect x="844" y="22" width="140" height="36" rx="9" fill="#f1f4ee"/><text x="872" y="45" font-size="12" fill="#53635a">Filters</text><rect x="1000" y="22" width="168" height="36" rx="9" fill="#173b28"/><text x="1030" y="45" font-size="12" fill="#f7fbf3" font-weight="700">Export report</text>
+        <rect x="26" y="92" width="1144" height="42" rx="8" fill="#f5f7f3"/><g font-size="11" fill="#7b8b80" font-weight="700"><text x="42" y="118">FIELD</text><text x="320" y="118">STATE</text><text x="528" y="118">NEXT IRRIGATION</text><text x="738" y="118">STATUS</text><text x="1026" y="118">AREA</text></g><g font-size="13" fill="#44554b"><text x="42" y="166">Maharashtra / Field 04</text><text x="320" y="166">Maharashtra</text><text x="528" y="166">Today, 4:30 PM</text><rect x="738" y="148" width="90" height="26" rx="13" fill="#fff0ed"/><text x="756" y="165" fill="#b64b36" font-size="11">Needs review</text><text x="1026" y="166">8.42 acres</text><line x1="26" x2="1170" y1="188" y2="188" stroke="#e7ece6"/><text x="42" y="220">Madhya Pradesh / Field 02</text><text x="320" y="220">Madhya Pradesh</text><text x="528" y="220">Tomorrow, 6:00 AM</text><rect x="738" y="202" width="74" height="26" rx="13" fill="#e7f3e9"/><text x="754" y="219" fill="#2e6b3e" font-size="11">Healthy</text><text x="1026" y="220">5.18 acres</text></g>
+      </g>
+    </g>
+    <g transform="translate(1340 952)" fill="#6e8074" font-size="11"><text x="0" y="0">DESIGN DIRECTION · MINIMAL FIELD OPS</text></g>
+  </g>
+</svg>
